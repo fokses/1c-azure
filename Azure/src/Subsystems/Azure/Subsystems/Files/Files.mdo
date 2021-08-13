@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07a59beb-26fa-4b42-bfb7-dd30f890a58d">
+  <name>Files</name>
+  <synonym>
+    <key>ru</key>
+    <value>Files</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.СохранитьФайл</content>
+  <content>DataProcessor.ПолучитьФайл</content>
+  <content>DataProcessor.СоздатьПапку</content>
+  <content>DataProcessor.Аренда</content>
+  <parentSubsystem>Subsystem.Azure</parentSubsystem>
+</mdclass:Subsystem>

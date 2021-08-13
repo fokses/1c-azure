@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d569a0f-ae6a-4f0c-9507-97cde1d60d69">
+  <name>Blob</name>
+  <synonym>
+    <key>ru</key>
+    <value>Blob</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Azure</parentSubsystem>
+</mdclass:Subsystem>

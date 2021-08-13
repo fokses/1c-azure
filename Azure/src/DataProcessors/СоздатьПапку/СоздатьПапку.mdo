@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fde8601-6aeb-49a7-87ea-dd77601dfc3b">
+  <producedTypes>
+    <objectType typeId="09e87efe-8050-4d9a-b381-13306d0d37f5" valueTypeId="745b36a6-acfa-451e-9235-9d2e03ae0ede"/>
+    <managerType typeId="3b9eceef-5875-456e-9392-16f66623aaed" valueTypeId="30188e4d-c050-423d-83e6-224523f9e17e"/>
+  </producedTypes>
+  <name>СоздатьПапку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать папку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СоздатьПапку.Form.Форма</defaultForm>
+  <attributes uuid="44f4382d-cf72-4304-a64f-10923306c31e">
+    <name>СтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="53cb13e1-56ad-4ef3-9504-8a6b35e54890">
+    <name>ShareName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Share name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="af6d8acc-27ab-4e8d-9a4f-c56dac0477c6">
+    <name>DirectoryPath</name>
+    <synonym>
+      <key>ru</key>
+      <value>Directory path</value>
+    </synonym>
+    <comment>Путь по которому будет создан файл (напр. files\)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c88041ed-792f-4819-ae02-bf3fa08ec2df">
+    <producedTypes>
+      <objectType typeId="687a5c19-3709-4f84-942b-557c90606a66" valueTypeId="7432a57f-e506-4b27-a82b-78187823e6c0"/>
+      <rowType typeId="86e65be2-4f0a-48b5-bd25-24962d28863c" valueTypeId="eeb5b514-e432-4a53-a7f4-1f6b10162b7b"/>
+    </producedTypes>
+    <name>МетаТеги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мета теги</value>
+    </synonym>
+    <attributes uuid="4bbe71c2-a097-43f6-bf72-fdf6a62363c0">
+      <name>Тег</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тег</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b3484b2c-da1b-4042-b0c0-e8d10d662dee">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f4efd432-2644-467c-86c7-23cf00b15333">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

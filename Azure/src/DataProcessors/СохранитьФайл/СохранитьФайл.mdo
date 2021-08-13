@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20283a20-0405-4736-a884-9cf1bf020128">
+  <producedTypes>
+    <objectType typeId="190d563b-2fb8-4b35-82b1-4410cc82421c" valueTypeId="0ffeac9b-9580-4a95-af5f-09d63d5af257"/>
+    <managerType typeId="1df98484-2a67-4aa8-a763-1bcf3a71f33d" valueTypeId="3bd8f80f-74a3-464d-83c6-5da20fb3be86"/>
+  </producedTypes>
+  <name>СохранитьФайл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить файл</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СохранитьФайл.Form.Форма</defaultForm>
+  <attributes uuid="eac4ccea-c989-4c4f-81a2-a9a27659012b">
+    <name>СтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fdbe60b3-bcdd-4923-ada3-ec3d48d641c3">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5a807bdd-9d97-4637-b300-410ddb75f378">
+    <name>ShareName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Share name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="24db8489-fb66-460d-aa86-5478179a97c4">
+    <name>DirectoryPath</name>
+    <synonym>
+      <key>ru</key>
+      <value>Directory path</value>
+    </synonym>
+    <comment>Путь по которому будет создан файл (напр. files\)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8ad464e8-58a6-459a-86b8-cefd4ca2b150">
+    <name>СохранитьMD5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить MD5</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4a127d5-900f-4eca-8d9d-cc484b8c42f9">
+    <name>СоздаватьИерархиюПапок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать иерархию папок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2adcb366-417a-48b3-810d-63e1c5e8c2c6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="feebd4f1-f673-4265-9e57-aad4a326a192">
+  <name>Azure</name>
+  <synonym>
+    <key>ru</key>
+    <value>Microsoft Azure</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6147e7fc-2cbd-475d-89bb-b38e8d398e58"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5f26506d-c070-4b5a-a4fc-9f5e23c0ebd2"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d38125c8-e6ee-4f5a-9a26-c9e6bc4df747"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d3b6158c-3cad-4619-885d-cc9881689d99"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c8b8e26c-72ec-4c23-b82d-c3b0ef0d7f2d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="eda7ce51-6521-4aa8-be90-e51686624ff9"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bedd5343-acc5-4b2e-ad4a-df4ed7e479ea"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>fokses@gmail.com</vendor>
+  <version>0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>fokses@gmail.com</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="4a6e3756-9d04-4d2a-8e44-2f3fb241b959">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Azure</subsystems>
+  <commonModules>CommonModule.AzureВызовСервера</commonModules>
+  <commonModules>CommonModule.ВспомогательныйКлиент</commonModules>
+  <settingsStorages>SettingsStorage.ХранилищеНастроек</settingsStorages>
+  <dataProcessors>DataProcessor.СохранитьФайл</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучитьФайл</dataProcessors>
+  <dataProcessors>DataProcessor.СоздатьПапку</dataProcessors>
+  <dataProcessors>DataProcessor.Аренда</dataProcessors>
+</mdclass:Configuration>

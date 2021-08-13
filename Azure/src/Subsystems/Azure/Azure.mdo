@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4256294-0430-4bf0-b36b-b99018f21db4">
+  <name>Azure</name>
+  <synonym>
+    <key>ru</key>
+    <value>Azure</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.AzureВызовСервера</content>
+  <subsystems>Blob</subsystems>
+  <subsystems>Files</subsystems>
+</mdclass:Subsystem>

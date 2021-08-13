@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e166dec8-2646-4590-a624-fc648d9d5674">
+  <producedTypes>
+    <objectType typeId="f256cb3d-92a9-409d-b52f-c96cc293b6d0" valueTypeId="6b7eb52a-dab4-4d3c-9348-dfa417649a7e"/>
+    <managerType typeId="77c144c8-b04e-4f73-b9a2-ad442135339e" valueTypeId="4b3b88f4-6204-4108-8cff-a9532576a432"/>
+  </producedTypes>
+  <name>Аренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Аренда.Form.Форма</defaultForm>
+  <attributes uuid="1fb7d725-c5d8-4127-bcde-92724e552eb5">
+    <name>СтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a1267408-1dd3-4272-9ab9-5b678efc81dd">
+    <name>FileName</name>
+    <synonym>
+      <key>ru</key>
+      <value>File name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="307834cb-13c1-47fb-93a5-afe0f356ee40">
+    <name>ShareName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Share name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="93704077-ff2d-426f-9645-679029a2e274">
+    <name>DirectoryPath</name>
+    <synonym>
+      <key>ru</key>
+      <value>Directory path</value>
+    </synonym>
+    <comment>Путь по которому будет создан файл (напр. files\)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="659170ed-95bf-4b96-b067-abbdd12eeeb6">
+    <name>LeaseID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Lease ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="287974e5-e3b4-43ae-a9db-6169602e6634">
+    <name>ProposedLeaseId</name>
+    <synonym>
+      <key>ru</key>
+      <value>Proposed lease id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="49f40ed2-7980-4e05-8a9f-4dcc204458fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
